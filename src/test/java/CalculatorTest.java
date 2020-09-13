@@ -31,4 +31,9 @@ class CalculatorTest {
         assertEquals(0, calc.add("2,\n2,5,1\n5"));
     }
 
+    @Test
+    void add_differentDelimiters_ret10() {
+        assertEquals(10, calc.add("//;\n6;4"));
+    }
+
 }

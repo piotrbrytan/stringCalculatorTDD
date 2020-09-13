@@ -1,5 +1,7 @@
 public class AppRun {
     public static void main(String[] args) {
-        System.out.println("Hi");
+        Calculator calc = new Calculator();
+
+        calc.add("//;\n6;4");
     }
 }
